@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+    height:50px;
+}
+#nav{
+    height: 80px;
+    /* background-color: red; */
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    text-transform: uppercase;
+}
+#nav-part3{
+    display: flex;
+    padding: 0 50px;
+    gap: 40px;
+    text-transform: uppercase;
+}
+#nav-part3 button{
+    padding: 7px 10px;
+}
+
+#nav-part3 h4{
+    align-items: center;
+    display: flex;
+}
+.page h1{
+    font-size: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;   
+}
+.page h1 span{
+    background-color: brown;
+    font-size: 20px;
+    padding: 0 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    margin-top: 3%;
+}
+.page h1:nth-child(2){
+    margin-top: 60px;
+}
+ .page>#leftimage{
+    height: 250px;
+    position: absolute;
+    top: 14%;
+    left: 9%;
+}
+.page>#rightimage{
+    height: 250px;
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 22px;
+}
